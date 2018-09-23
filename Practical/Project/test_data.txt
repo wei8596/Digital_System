@@ -1,0 +1,20 @@
+1. No carry propagated
+	3*21845
+	(-21846)*(-32767)
+	21845*(-16384)
+
+2.Half carry propagated
+	32767*32513
+	(-1)*32513
+	(-1)*(-255)
+
+3.All carry propageted
+	(-16385)*(-1)
+	32767*(-1)
+	32767*32767
+	
+4.Multiplier/multiplicand = 0
+	0*5
+	
+5.Large positive/negative vale * Large positive/negative value
+	(-32767)*(-32767)
